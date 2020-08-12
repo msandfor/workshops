@@ -27,9 +27,7 @@ adventures:
 
 [Space Cadet Survey](https://docs.google.com/forms/d/e/1FAIpQLSfTEKYwDtkwfJFfYOclEHJQSX2R9xIaPScSorowQptY3lREzw/viewform)
 
-Congratulations!--> You’ve been approved as an honorary space explorer by the
-Galactic Federation! You will be given missions to help make the galaxy a safe
-and fun place for everyone!
+Congratulations!--> You’ve been approved as an honorary space explorer by the Galactic Federation! You will be given missions to help make the galaxy a safe and fun place for everyone!
 
 ## Table of Contents
 

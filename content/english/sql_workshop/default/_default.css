@@ -2,11 +2,11 @@
 .codeBlocks {
   position: relative;
   display: block;
-  top: 13vw;
+  top: 22vw;
   right: -8vw;
   float: left;
-  width: 9vw;
-  height: 5vw;
+  width: 8vw;
+  height: 4vw;
   margin: 1vw;
   border: 1px solid green;
 }
@@ -15,11 +15,11 @@
 .dropClass {
   position: relative;
   display: block;
-  top: 10vw;
+  top: 20vw;
   right: -8vw;
   float: left;
-  width: 9vw;
-  height: 5vw;
+  width: 8vw;
+  height: 4vw;
   margin: 1vw;
   border: 1px solid white;
 }
@@ -27,7 +27,7 @@
 /* Reference position for blocks */
 .terminal_div {
   position: relative;
-  height: 34vw;
+  height: 50vw;
   width: auto;
 }
 

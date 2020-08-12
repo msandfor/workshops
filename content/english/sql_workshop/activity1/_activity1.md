@@ -22,9 +22,10 @@ commands to help save the Planet of Fun!
 You are given information about the Galaxy and want to look for the Planet of Fun. To do this,
  the Galactic Federation has given you your first SQL command: SELECT. 
 
-**What the command does:** The SELECT command allows you to choose what data to show from a database.
+### What the command does: 
+The SELECT command allows you to choose what data to show from a database.
 
-**Example:**
+### Example:
 
 ![Select](../assets/Select.PNG)
 
@@ -33,7 +34,7 @@ You are given information about the Galaxy and want to look for the Planet of Fu
 #### Question: What command will display all the columns in the database called "galaxy"?
 
 {{< rawhtml >}}
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen">
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../../media/Terminal.png" alt="Terminal_screen">
 
 
 <!-- Rectangles to Receive blocks -->

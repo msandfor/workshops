@@ -9,7 +9,9 @@ translationKey: "sql_activity_5"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../../default/_default.css" type="text/css"></link>
+<link rel="stylesheet" href="../_activity5.css" type="text/css"></link>
 <script type="text/javascript" src="../../default/_default.js"></script>
+<script type="text/javascript" src="../_activity5.js"></script>
 
 <!-- Embed YouTube Video Link here when ready -->
 
@@ -40,6 +42,20 @@ The MAX command allows you to...
 <!-- Press Enter --> 
 <button class="button button1" onclick="check()"> Enter </button>
 
+<!-- Code Block with ladder is revealed -->
+
+<!-- Player drags ladder block to drop block to finish mission -->
+<div class="hill_div" id="hill_div"><img class="hill" src="" alt="hill">
+
+<!-- Drop Location -->
+<div id="div2" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+
+<!-- Drag Block -->
+<div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img class="img" src="../assets/Equal.PNG" draggable="true" ondragstart="drag(event)" id="drag1">
+</div>
+
+</div>
 
 <div id="text" style="visibility:hidden">
 <p> You made it! The Dear Leader tells you that the Planet of Fun is in danger of being invaded by the aliens from the Planet of Boredom!

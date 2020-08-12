@@ -18,13 +18,7 @@ translationKey: "sql_activity_4"
 After going to the Capital of Fun, you are told by the inhabitants to talk to their Dear Leader. Find out which inhabitant is the Dear Leader.
 To do so, lets take a look at how to select multiple columns.
 
-### How to Select multiple columns:
-Explanation here
-
-<!-- ![Explain](../assets/Where_Explain.png)-->
-
-### Example:
-
+![Commas](../assets/Commas.png)
 
 #### Now use what you learned!
 

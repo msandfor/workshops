@@ -12,6 +12,7 @@ translationKey: "sql_activity_5"
 <link rel="stylesheet" href="../_activity5.css" type="text/css"></link>
 <script type="text/javascript" src="../../default/_default.js"></script>
 <script type="text/javascript" src="../_activity5.js"></script>
+<script type="text/javascript" src="../../default/alasql.js"></script>
 
 <!-- Embed YouTube Video Link here when ready -->
 
@@ -34,30 +35,49 @@ The MAX command allows you to...
 
 {{< rawhtml >}}
 
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../assets/Terminal.png" alt="Terminal_screen">
+<div class="terminal_div" id="terminal_div"><img class="terminal" src="../../media/Terminal.png" alt="Terminal_screen">
 
 
 </div>
 
-<!-- Press Enter --> 
+<!-- Press Enter -->
 <button class="button button1" onclick="check()"> Enter </button>
 
-<!-- Code Block with ladder is revealed -->
+
+{{< /rawhtml >}}
+
+
+### Choose and drag the correct ladder onto the hill to continue your adventure!
+
+
+{{< rawhtml >}}
+
 
 <!-- Player drags ladder block to drop block to finish mission -->
-<div class="hill_div" id="hill_div"><img class="hill" src="" alt="hill">
+<div class="hill_div" id="hill_div"><img class="hill" src="../assets/Hill.png" alt="hill">
+
 
 <!-- Drop Location -->
-<div id="div2" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
+<div id="div4" class="dropClass" ondrop="drop(event)" ondragover="allowDrop(event)";> </div>
 
 <!-- Drag Block -->
 <div id="div1" class ="codeBlocks" style="clear: left;" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" src="../assets/Equal.PNG" draggable="true" ondragstart="drag(event)" id="drag1">
-</div>
+<img class="img" src="../assets/ladder.png" draggable="true" ondragstart="drag(event)" id="drag1">
+</div> 
+
+<div id="div2" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img class="img" src="../assets/ladder.png" draggable="true" ondragstart="drag(event)" id="drag2">
+</div> 
+
+<div id="div3" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img class="img" src="../assets/ladder.png" draggable="true" ondragstart="drag(event)" id="drag3">
+</div> 
 
 </div>
 
-<div id="text" style="visibility:hidden">
+<!-- Next mission text displays -->
+<div id="text1" style="visibility:hidden">
+<br/>
 <p> You made it! The Dear Leader tells you that the Planet of Fun is in danger of being invaded by the aliens from the Planet of Boredom!
 You must find the Totems of Fun in order to save the planet! </p>
 </div>

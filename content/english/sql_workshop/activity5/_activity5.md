@@ -21,21 +21,42 @@ translationKey: "sql_activity_5"
 After receiving the message from the Galactic Federation, you continue your adventure. You have discovered that the planet's leader
 is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
 
-The Galactic Federation has sent you three new SQL commands to play around with! Lets take a look at them!
+The Galactic Federation has sent you four new SQL commands to play around with! Lets take a look at them!
 
 
 ### What the commands do:
 
 ![Explain](../assets/max_min.png)
 
-### Example:
+#
 
+Column Property:
+MAX() is used to look for the largest value in a column. MIN() is the opposite of max and will look for the smallest value in a column.
+You can replace any word inside the parenthesis with another column name to get the largest or smallest value of that column.
 
-#### Now use what you learned to find the tallest ladder!
+![IN](../assets/In.png)
+![NOT](../assets/not.png)
 
-* Hint 1: Do you need to use MAX or MIN to find the tallest ladder?
+Condition:
+IN() and NOT IN() are used hand in hand with the WHERE command we learned in activity 2. IN() is part of the condition of a SQL command
+and is helpful when you want to show some columns but not all of them.
 
-* Hint 2: Remember the advice from the Galactic Federation: SELECT (column/column property) FROM (database) (optional condition);
+NOT IN() is the opposite of IN(). Instead of choosing what to show like IN(), NOT IN() will show all the columns you did not choose inside
+the parenthesis.
+
+You can use commas inside the parenthesis to choose more than one column to show or not show.
+
+#
+
+### Now use what you learned! Using the database called 'items' with a column labeled 'object', find the tallest 'ladder'.
+
+* Hint 1: Remember the advice from the Galactic Federation: SELECT [column/column property] FROM [database] [optional condition];
+
+* Hint 2: Column property: Do you need to use MAX or MIN to find the tallest ladder?
+
+* Hint 3: Condition: WHERE [column_name] [IN/NOT IN]; 
+
+* Hint 4: Do you need to use IN or NOT IN to show the 'ladder'?
 
 <!-- SQL Type In Activity -->
 
@@ -54,6 +75,7 @@ The Galactic Federation has sent you three new SQL commands to play around with!
 
 
 ### Choose and drag the correct ladder onto the hill to continue your adventure!
+**Note: The correct ladder will highlight green**
 
 
 {{< rawhtml >}}
@@ -72,11 +94,11 @@ The Galactic Federation has sent you three new SQL commands to play around with!
 </div> 
 
 <div id="div2" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" src="../assets/ladder.png" draggable="true" ondragstart="drag(event)" id="drag2">
+<img class="img" src="../assets/ladder_blue.png" draggable="true" ondragstart="drag(event)" id="drag2">
 </div> 
 
 <div id="div3" class ="codeBlocks" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img class="img" src="../assets/ladder.png" draggable="true" ondragstart="drag(event)" id="drag3">
+<img class="img" src="../assets/ladder_brown.png" draggable="true" ondragstart="drag(event)" id="drag3">
 </div> 
 
 </div>

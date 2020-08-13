@@ -1,7 +1,7 @@
 ---
-title: "Learn MAX Command"
-description: "Learn MAX Command"
-date: 2020-07-13
+title: "Learn MAX/MIN Command"
+description: "Learn MAX/MIN Command"
+date: 2020-07-12
 prereq: "none"
 difficulty: "Beginner"
 draft: false
@@ -18,18 +18,24 @@ translationKey: "sql_activity_5"
 
 ## Task 5: Find the Tallest Ladder To Get To Their Dear Leader
 
-You discover that the Planet’s leader is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
+After receiving the message from the Galactic Federation, you continue your adventure. You have discovered that the planet's leader
+is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
+
+The Galactic Federation has sent you three new SQL commands to play around with! Lets take a look at them!
 
 
-### What the command does:
-The MAX command allows you to...
+### What the commands do:
 
-<!-- ![Explain](../assets/Where_Explain.png)-->
+![Explain](../assets/max_min.png)
 
 ### Example:
 
 
-#### Now use what you learned!
+#### Now use what you learned to find the tallest ladder!
+
+* Hint 1: Do you need to use MAX or MIN to find the tallest ladder?
+
+* Hint 2: Remember the advice from the Galactic Federation: SELECT (column/column property) FROM (database) (optional condition);
 
 <!-- SQL Type In Activity -->
 

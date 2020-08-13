@@ -1,7 +1,7 @@
 ---
 title: "Use Comparators"
 description: "Use Comparators"
-date: 2020-07-12
+date: 2020-07-11
 prereq: "none"
 difficulty: "Beginner"
 draft: false

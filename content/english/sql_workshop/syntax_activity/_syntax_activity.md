@@ -2,7 +2,7 @@
 title: "Explain Syntax"
 description: "Explain Syntax"
 date: 2020-07-13
-prereq: "none"
+prereq: "SELECT Command, conditions (WHERE command)"
 difficulty: "Beginner"
 draft: false
 translationKey: "sql_activity_4.5"

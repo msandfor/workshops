@@ -2,7 +2,7 @@
 title: "Learn MAX/MIN Command"
 description: "Learn MAX/MIN Command"
 date: 2020-07-12
-prereq: "none"
+prereq: "SELECT Command, WHERE Command"
 difficulty: "Beginner"
 draft: false
 translationKey: "sql_activity_5"

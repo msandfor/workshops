@@ -2,7 +2,7 @@
 title: "Use Comparators"
 description: "Use Comparators"
 date: 2020-07-11
-prereq: "none"
+prereq: "SELECT Command, WHERE Command"
 difficulty: "Beginner"
 draft: false
 translationKey: "sql_activity_6"

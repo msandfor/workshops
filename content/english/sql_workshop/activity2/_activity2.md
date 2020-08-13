@@ -2,7 +2,7 @@
 title: "Learn the WHERE Command"
 description: "Learn the WHERE command"
 date: 2020-07-16
-prereq: "none"
+prereq: "SELECT command"
 difficulty: "Beginner"
 draft: false
 translationKey: "sql_activity_2"

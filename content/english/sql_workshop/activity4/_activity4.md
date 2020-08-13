@@ -2,7 +2,7 @@
 title: "Select Multiple Info"
 description: "Select Multiple Info"
 date: 2020-07-14
-prereq: "none"
+prereq: "SELECT Command"
 difficulty: "Beginner"
 draft: false
 translationKey: "sql_activity_4"

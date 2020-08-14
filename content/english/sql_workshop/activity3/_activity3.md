@@ -9,7 +9,7 @@ translationKey: "sql_activity_3"
 ---
 <!-- Links for javascript and CSS needed for drop down logic -->
 <link rel="stylesheet" href="../_activity3.css" type="text/css"></link>
-<script type="text/javascript" src="../alasql.js"></script>
+<script type="text/javascript" src="../../default/alasql.js"></script>
 <script type="text/javascript" src="../_activity3.js"></script>
 
 <script>
@@ -19,24 +19,26 @@ alasql("INSERT INTO planet VALUES (2,'Playground City',1000,'Pizza')");
 alasql("INSERT INTO planet VALUES (3,'City of Games',6000,'Hotdog')");
 alasql("INSERT INTO planet VALUES (4,'Fun Capital',9500,'Hamburger')");
 alasql("INSERT INTO planet VALUES (5,'Seriously Fun',2000,'Taco')");
-
-
-
-
 </script>
-# Congratulations!
-You have successfully arrived on the Planet of Fun! The Galactic Federation has sent you a database about this planet.
 
-![db](../assets/planet_db.PNG)
+#### Congratulations! You have successfully arrived on the Planet of Fun! 
+
+**The Galactic Federation has sent you a database about this planet.**
+
+![db](../assets/planet_db.png)
 
 ## Task 3: Talk to the inhabitants 
 You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the COUNT command!
 
-When we use the SELECT * FROM planet; command, this table is displayed. But in order to check the number of cities, we can use the COUNT command.
+When we use the SELECT * FROM planet; command, this table (above) is displayed. But in order to check the number of cities, we can use the COUNT command.
 
 ![count](../assets/count.png)
 
-### Question: Using COUNT, what command will display the number of cities on the Planet of Fun?
+#### Note: You can replace the asterix inside the parenthesis with any column name to get more specific.
+
+#
+
+#### Question: Using the database above and the COUNT command, what command will display the number of cities on the Planet of Fun?
 {{< rawhtml >}}
 	
 	<div class="terminal_div" id="terminal_div">

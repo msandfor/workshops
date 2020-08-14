@@ -1,0 +1,36 @@
+
+.text-area {
+  position: absolute;
+  /*top: 10vw;
+  left: 15%;*/
+  background-color: gray;
+  color: green;
+  width: 75%;
+  height: 10%;
+  font-size: 20px;
+  resize: none;
+}
+
+::placeholder {
+  color: lighter;
+}
+
+
+
+/* Style for Enter button */
+.button1 {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  position:relative;
+  top:0vw;
+  left:30vw;
+}
+
+
+.table, th, td {
+  border: 1px silver;
+}

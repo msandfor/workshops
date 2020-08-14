@@ -1,7 +1,7 @@
 ---
 title: "Select Multiple Info"
 description: "Select Multiple Info"
-date: 2020-07-14
+date: 2020-07-1
 prereq: "SELECT Command"
 difficulty: "Beginner"
 draft: false
@@ -13,6 +13,25 @@ translationKey: "sql_activity_4"
 <script type="text/javascript" src="../../default/_default.js"></script>
 <script type="text/javascript" src="../_activity4.js"></script>
 <script type="text/javascript" src="../../default/alasql.js"></script>
+
+
+<script>
+	alasql("CREATE TABLE galaxy(planet_number INT, name STRING, leader STRING, population INT, coordinates INT)");
+	alasql("INSERT INTO galaxy VALUES (1,'Puzzle Land','Thomas Stewart',1000,1)");
+	alasql("INSERT INTO galaxy VALUES (2,'Planet of Mold','Lucy Stewart',9000,3)");
+	alasql("INSERT INTO galaxy VALUES (3,'Ice Cream Freezer Land','James Dunkeld',2000,5)");
+	alasql("INSERT INTO galaxy VALUES (4,'Planet of Fun','Olivia Windsor',2000,6)");
+	alasql("INSERT INTO galaxy VALUES (5,'Desert Quadrant','Chloe Canmore',6000,7)");
+	alasql("INSERT INTO galaxy VALUES (6,'Planet of Boredom',' ',9000,8)");
+
+	<!-- crashes site here-->
+	alasql("INSERT INTO galaxy VALUES (7,'Nebula Planet','Harry Windsor',6000,9)");
+	alasql("INSERT INTO galaxy VALUES (8,'Ocean World','Oliver Stuart',1000,10)");
+	alasql("INSERT INTO galaxy VALUES (9,'Space Zone',' ',0,11)");
+	alasql("INSERT INTO galaxy VALUES (10,'Eeh-Eeh','Amelia Tudor',9000,24)");
+	alasql("INSERT INTO galaxy VALUES (11,'Planet of Pizza',' ',1000,27)");
+	alasql("INSERT INTO galaxy VALUES (12,'Planet of Tacos','Jack Planta',0,60)");
+</script>
 
 <!-- Embed YouTube Video Link here when ready -->
 
@@ -40,24 +59,26 @@ To do so, lets take a look at how to select multiple columns in a database.
 **Hint: Only two columns are needed.**
 
 <!-- SQL Type In Activity -->
-
-
 {{< rawhtml >}}
-
-
-<div class="terminal_div" id="terminal_div"><img class="terminal" src="../../media/Terminal.png" alt="Terminal_screen">
-
-
-</div>
-
-<!-- Press Enter --> 
-<!-- Justin: need to add a check to the _activity4.js file to make sure player uses correct command to advance plot-->
-<button class="button button1" onclick="check()"> Enter </button>
-
-
-<div id="text" style="visibility:hidden">
-<p> <br> Amazing work as always, space cadet! You discovered that the Planet of Fun's Dear Leader is Olivia Windsor! Now you need to figure out a way to get to them! </p>
-</div>
-
-
+	
+	<div class="terminal_div" id="terminal_div">
+		<img class="terminal" src="../../media/Terminal.png" alt="Terminal_screen" style="pointer-events:none">
+		<div class="text-area">
+			<textarea id="commands" placeholder="Enter command here!" style="resize: none"></textarea>
+			<button class="button button1" onclick="sql()">	Enter </button>
+		</div>
+	</div>
+	
+	</br></br></br></br></br></br>
+	<h1 class="error" id="sqlcommand" <h1 class="error" id="sqlcommand" style="visibility:hidden"><strong>ERROR INVALID INPUT></strong></h1>
+	
+	<table id="table">
+		<tr>
+		</tr>
+	</table>
+	
+	<h4 id="story"></h4>
+	
 {{< /rawhtml >}}
+
+<p>  </p>

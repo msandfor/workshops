@@ -2,7 +2,7 @@
 title: "Learn the COUNT Command"
 description: "Learn the COUNT command"
 date: 2020-07-14
-prereq: "none"
+prereq: "SELECT Command"
 difficulty: "Beginner"
 draft: false
 translationKey: "sql_activity_3"
@@ -19,11 +19,14 @@ translationKey: "sql_activity_3"
 	alasql("INSERT INTO planet VALUES (3,'City of Games',6000,'Hotdog')");
 	alasql("INSERT INTO planet VALUES (4,'Fun Capital',9500,'Hamburger')");
 	alasql("INSERT INTO planet VALUES (5,'Seriously Fun',2000,'Taco')");
+	
 </script>
-# Congratulations!
+
+After receiving the message from the Galactic Federation, you continue your adventure. 
+
 You have successfully arrived on the Planet of Fun! The Galactic Federation has sent you a database about this planet.
 
-![db](../assets/planet_db.PNG)
+![db](../assets/planet_db.png)
 
 ## Task 3: Talk to the inhabitants 
 You need to talk to the inhabitants of the Planet of Fun to discover what the problem is. Find out how many cities there are on the planet using the COUNT command!

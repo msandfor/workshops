@@ -1,7 +1,7 @@
 ---
 title: "Select Multiple Info"
 description: "Select Multiple Info"
-date: 2020-07-1
+date: 2020-07-13
 prereq: "SELECT Command"
 difficulty: "Beginner"
 draft: false
@@ -16,7 +16,7 @@ translationKey: "sql_activity_4"
 
 
 <script>
-	alasql("CREATE TABLE galaxy(planet_number INT, name STRING, leader STRING, population INT, coordinates INT)");
+	alasql("CREATE TABLE galaxy(planet_number INT, planet STRING, leader STRING, population INT, coordinates INT)");
 	alasql("INSERT INTO galaxy VALUES (1,'Puzzle Land','Thomas Stewart',1000,1)");
 	alasql("INSERT INTO galaxy VALUES (2,'Planet of Mold','Lucy Stewart',9000,3)");
 	alasql("INSERT INTO galaxy VALUES (3,'Ice Cream Freezer Land','James Dunkeld',2000,5)");
@@ -24,13 +24,14 @@ translationKey: "sql_activity_4"
 	alasql("INSERT INTO galaxy VALUES (5,'Desert Quadrant','Chloe Canmore',6000,7)");
 	alasql("INSERT INTO galaxy VALUES (6,'Planet of Boredom',' ',9000,8)");
 
-	<!-- crashes site here-->
+	<!-- crashes site here
 	alasql("INSERT INTO galaxy VALUES (7,'Nebula Planet','Harry Windsor',6000,9)");
 	alasql("INSERT INTO galaxy VALUES (8,'Ocean World','Oliver Stuart',1000,10)");
 	alasql("INSERT INTO galaxy VALUES (9,'Space Zone',' ',0,11)");
 	alasql("INSERT INTO galaxy VALUES (10,'Eeh-Eeh','Amelia Tudor',9000,24)");
 	alasql("INSERT INTO galaxy VALUES (11,'Planet of Pizza',' ',1000,27)");
 	alasql("INSERT INTO galaxy VALUES (12,'Planet of Tacos','Jack Planta',0,60)");
+	-->
 </script>
 
 <!-- Embed YouTube Video Link here when ready -->

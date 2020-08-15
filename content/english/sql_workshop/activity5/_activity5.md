@@ -18,7 +18,7 @@ translationKey: "sql_activity_5"
 
 ## Task 5: Find the Tallest Ladder To Get To Their Dear Leader
 
-After receiving the message from the Galactic Federation, you continue your adventure. You have discovered that the planet's leader
+You have discovered that the planet's leader
 is in a hut on the tallest hill but to get to it, you need to find the largest ladder in the Capital of Fun!
 
 The Galactic Federation has sent you four new SQL commands to play around with! Lets take a look at them!

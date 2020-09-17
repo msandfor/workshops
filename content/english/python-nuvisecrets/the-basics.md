@@ -6,7 +6,7 @@ draft: false
 translationKey: "python-nuvisecrets-basics"
 ---
 
-Before Alex can learn how to create a beehive, he must first learn how to draw a colored line. We will add code to the below repl.it window, and we will do this in two parts.
+Before we can talk to Nuvi in her own language, we need to learn a few things about how she thinks.
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/PythonWithTurtleIntroduction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
